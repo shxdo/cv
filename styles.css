@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Lato&display=swap');
+
+:root {
+    --main-all-color:#373741;
+    --main-bg-color: #ffffff;
+    --sec-all-color: #E1D8CF;
+}
+
+* {
+    color: var(--main-all-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    line-height: 20px;
+    letter-spacing: 0.059em;
+}
+
+body {
+    background: var(--main-bg-color);
+}
+
+        /* PAGE A4 FORMAT */
+page {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+}
+@media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+}
+        /* LEFT DIV */
+.left {
+    background-color: var(--sec-all-color);
+    height: 100%;
+    width: 42%;
+    float: left;
+    display:block;
+}
+.white_block{
+    height: 1rem;
+    width: 100%;
+    background-color: var(--main-bg-color);
+}
+        /* RIGHT DIV */
+.right {
+    background-color: var(--main-all-color);
+    height: 17rem;
+    width: 100%;
+    display:block;
+    margin-bottom: 2.5rem;
+}
+        /* RIGHT DOWN DIV */
+.right_down {
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+        /* DIV WRAPPER OF THE CONTENT */
+.content{
+    margin-left: 26rem;
+    padding-right: 6rem;
+}
+        /* PARAGRAPH STYLE */
+p{
+    letter-spacing: 0.01em;
+}
+        /* HEADER STYLE */
+h1 {
+    color: var(--sec-all-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Aleo', serif;
+}
+        /* TITLE STYLE*/
+.title {
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 2.5rem;
+}
+        /* HOOK STYLE */
+.hook {
+    color: var(--main-bg-color);
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 29rem;
+    padding-right: 6.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+        /* CATEGORY OF THE ELEMENT */
+.category {
+    width: 25rem;
+    padding: 0.6rem;
+    padding-top: 0.7rem;
+    margin-top: 2rem;
+    background-color: var(--main-all-color);
+    font-size: 1.1rem ;
+}
+.category_left {
+    width: 17rem;
+    margin-left: 3rem;
+    padding: 0.6rem;
+    padding-top: 0.7rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--main-all-color);
+    font-size: 1.1rem ;
+}
+
+.one, .two, .three {
+    margin-left: 0.4rem;
+}
+.one {
+    font-size: 1rem ;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.two {
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    font-style: italic;
+}
+.three {
+    font-size: 0.8rem;
+    margin-top: 0.45rem;
+    letter-spacing: 0ch;
+    line-height: 15px;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+.four {
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0ch;
+    line-height: 15px;
+    margin-bottom: 1.2rem;
+    margin-left: 0.3rem;
+    font-style: italic;
+
+}
+.five{
+    font-size: 1rem;
+    margin-top: 0.45rem;
+    letter-spacing: 0ch;
+    line-height: 20px;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.six{
+    font-size: 0.9rem;
+    margin-top: 0.45rem;
+    letter-spacing: 0ch;
+    line-height: 20px;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+}
+.left_div_margin {
+    margin-top: 7rem;
+}
+.ul_left_margin {
+    margin-left: 3rem;
+}
+
+.langue_one, .langue_two,.langue_three, .langue_four{
+    display: inline-block;
+    width: 20%;
+    height: 1.5rem;
+    font-size: 1rem ;
+    margin-top: 0rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.langue_one {
+    margin-left: 2.5rem;
+}
+
+.anglais{
+    margin-left : 0.4rem;
+}
+.level_one, .level_two, .level_three, .level_four{
+    display: inline-block;
+    width: 20%;
+    height: 1.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.level_one {
+    margin-left: 2.5rem;
+
+}
+.level_anglais{
+    margin-left : 0.4rem;
+}
+
+ul{
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+}
+.list{
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0ch;
+    line-height: 15px;
+    margin-bottom: 0.5rem;
+}
